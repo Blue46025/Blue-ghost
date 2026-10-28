@@ -1,0 +1,6 @@
+/* Estilos básicos en el editor de bloques para que se parezca a la web publicada. */
+body { font: 18px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #24221F; }
+h1, h2, h3 { font-weight: 800; letter-spacing: -.02em; line-height: 1.2; }
+.zona-cmp table, .wp-block-table table { border-collapse: collapse; }
+.zona-cmp th, .zona-cmp td { border: 1px solid #E2DDD3; padding: 8px 10px; }
+.callout { padding: 14px 18px; border-left: 4px solid #A3471F; background: #FBFAF7; }

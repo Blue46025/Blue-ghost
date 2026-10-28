@@ -17,7 +17,7 @@ Cuando incorporemos programas de afiliación:
 
 ## Publicidad
 
-Si incorporamos publicidad, será **no invasiva**: sin ventanas emergentes, sin anuncios intersticiales que interrumpan la lectura y sin formatos que se confundan con el contenido editorial. La publicidad que requiera cookies o tecnologías de seguimiento solo se activará con tu consentimiento previo, como explicamos en la [política de cookies](/legal/cookies/).
+Si incorporamos publicidad, será **no invasiva**: sin ventanas emergentes, sin anuncios intersticiales que interrumpan la lectura y sin formatos que se confundan con el contenido editorial. La publicidad que requiera cookies o tecnologías de seguimiento solo se activará con tu consentimiento previo, como explicamos en la [política de cookies](/cookies/).
 
 ## Independencia
 

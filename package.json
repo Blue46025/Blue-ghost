@@ -1,15 +1,14 @@
 {
   "name": "zona-de-oferta",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Prototipo editorial estático de Zona de Oferta (versión privada, no indexable).",
+  "description": "Tema y plugin de WordPress de Zona de Oferta, contenidos y herramientas de publicación.",
   "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {
-    "build": "node scripts/build.mjs",
-    "build:production": "node scripts/build.mjs --production",
-    "check": "node scripts/build.mjs && node scripts/check.mjs",
-    "serve": "node scripts/serve.mjs",
-    "screenshots": "node scripts/screenshots.mjs"
+    "push": "node scripts/wp-push.mjs",
+    "push:dry": "node scripts/wp-push.mjs --dry-run --pages",
+    "package": "scripts/package.sh",
+    "test:browser": "node tests/browser.mjs"
   }
 }

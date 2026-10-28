@@ -27,7 +27,7 @@ Las conclusiones de nuestras guías y comparativas no dependen de que exista o n
 
 ## Cómo nos financiamos
 
-Explicamos nuestro modelo de financiación, basado en afiliación y publicidad no invasiva, en la página de [afiliación y publicidad](/legal/afiliacion-y-publicidad/).
+Explicamos nuestro modelo de financiación, basado en afiliación y publicidad no invasiva, en la página de [afiliación y publicidad](/afiliacion-y-publicidad/).
 
 ## Correcciones
 
