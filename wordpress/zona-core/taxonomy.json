@@ -2,6 +2,29 @@
   "note": "Fuente única de categorías. El plugin las crea en WordPress al activarse (no borra ni renombra las existentes). WordPress solo muestra en menús y portada las que tienen artículos publicados.",
   "categories": [
     {
+      "slug": "deporte",
+      "name": "Deporte",
+      "color": "#9A4320",
+      "description": "Pádel y running explicados para comprar bien: guías de material, comparativas y actualidad.",
+      "children": [
+        {
+          "slug": "padel",
+          "name": "Pádel",
+          "description": "Palas, zapatillas, pelotas y accesorios: cómo elegir sin tirar el dinero."
+        },
+        {
+          "slug": "running",
+          "name": "Running",
+          "description": "Zapatillas, relojes y material para correr."
+        },
+        {
+          "slug": "actualidad-deportiva",
+          "name": "Actualidad deportiva",
+          "description": "Noticias deportivas contrastadas."
+        }
+      ]
+    },
+    {
       "slug": "actualidad",
       "name": "Actualidad",
       "color": "#7A2E2E",
@@ -94,13 +117,6 @@
       "name": "Motor",
       "color": "#2F6B6B",
       "description": "Normativa, movilidad eléctrica y consejos prácticos para conductores.",
-      "children": []
-    },
-    {
-      "slug": "deporte",
-      "name": "Deporte",
-      "color": "#9A4320",
-      "description": "Material deportivo explicado: cómo elegir sin dejarse llevar por el marketing.",
       "children": []
     },
     {

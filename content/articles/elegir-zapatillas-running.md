@@ -3,13 +3,14 @@
   "title": "Cómo elegir zapatillas de running: amortiguación, drop y uso real",
   "slug": "elegir-zapatillas-running",
   "category": "deporte",
+  "subcategory": "running",
   "type": "guia",
   "date": "2026-10-28",
   "status": "borrador",
   "dek": "No existe la zapatilla perfecta en abstracto, sino la adecuada para tu ritmo, tu terreno y tu volumen de kilómetros. La comodidad al probarlas sigue siendo uno de los mejores criterios.",
   "description": "Guía para elegir zapatillas de running: tipos según uso, amortiguación y altura, drop, placas de carbono, talla, terreno y cuándo renovarlas.",
   "tags": ["running", "zapatillas", "correr", "drop", "amortiguación", "trail", "deporte"],
-  "related": ["como-saber-si-un-descuento-es-real"],
+  "related": ["reloj-gps-running", "como-saber-si-un-descuento-es-real"],
   "sources": []
 }
 ---

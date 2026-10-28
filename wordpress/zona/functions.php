@@ -216,9 +216,14 @@ function zona_root_categories_with_posts() {
 // Menú de reserva: secciones con contenido si no se ha configurado un menú.
 function zona_fallback_menu() {
 	$current_root = zona_current_root_category_id();
+	$current = is_category() ? get_queried_object_id() : ( is_singular( 'post' ) && zona_cat_of() ? zona_cat_of()->term_id : 0 );
 	echo '<ul class="catnav__list">';
 	foreach ( zona_root_categories_with_posts() as $t ) {
-		printf( '<li><a href="%s"%s>%s</a></li>', esc_url( get_term_link( $t ) ), $t->term_id === $current_root ? ' aria-current="true"' : '', esc_html( $t->name ) );
+		printf( '<li><a href="%s"%s>%s</a></li>', esc_url( get_term_link( $t ) ), $t->term_id === $current_root && $t->term_id === $current ? ' aria-current="true"' : '', esc_html( $t->name ) );
+		// Subsecciones con contenido justo después de su sección, para llegar en un clic a Pádel o Running.
+		foreach ( get_categories( array( 'parent' => $t->term_id, 'hide_empty' => true ) ) as $child ) {
+			printf( '<li><a href="%s"%s>%s</a></li>', esc_url( get_term_link( $child ) ), $child->term_id === $current ? ' aria-current="true"' : '', esc_html( $child->name ) );
+		}
 	}
 	echo '</ul>';
 }

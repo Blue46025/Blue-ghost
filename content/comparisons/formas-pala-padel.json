@@ -1,0 +1,34 @@
+{
+  "slug": "formas-pala-padel",
+  "title": "Pala redonda, lágrima o diamante: comparativa de formas de pala de pádel",
+  "dek": "Las tres formas de pala comparadas lado a lado: punto dulce, control, potencia, manejabilidad y nivel recomendado.",
+  "description": "Comparativa de palas de pádel redonda, lágrima y diamante: punto dulce, balance, control, potencia, exigencia física y nivel de juego recomendado.",
+  "category": "deporte",
+  "subcategory": "padel",
+  "date": "2026-10-28",
+  "status": "borrador",
+  "tags": ["pádel", "pala de pádel", "redonda", "lágrima", "diamante"],
+  "related": ["elegir-pala-padel", "pala-padel-principiante"],
+  "intro": "Son tendencias generales: dentro de cada forma hay palas más blandas o más duras y con distintos pesos. Para el resto de factores (peso, núcleo y caras), consulta la [guía para elegir pala](art:elegir-pala-padel).",
+  "items": [
+    { "id": "redonda", "name": "Redonda", "summary": "Control" },
+    { "id": "lagrima", "name": "Lágrima", "summary": "Polivalente" },
+    { "id": "diamante", "name": "Diamante", "summary": "Potencia" }
+  ],
+  "attributes": [
+    { "key": "sweet", "label": "Punto dulce" },
+    { "key": "balance", "label": "Balance habitual" },
+    { "key": "control", "label": "Control" },
+    { "key": "power", "label": "Potencia" },
+    { "key": "handling", "label": "Manejabilidad en la red" },
+    { "key": "arm", "label": "Exigencia para el brazo" },
+    { "key": "level", "label": "Nivel recomendado" }
+  ],
+  "values": {
+    "redonda": { "sweet": "Grande y centrado", "balance": "Bajo", "control": "Alto", "power": "Bajo a medio", "handling": "Alta", "arm": "Baja", "level": "Iniciación y jugadores de control" },
+    "lagrima": { "sweet": "Medio, algo elevado", "balance": "Medio", "control": "Medio a alto", "power": "Medio a alto", "handling": "Media", "arm": "Media", "level": "Intermedio y polivalente" },
+    "diamante": { "sweet": "Pequeño y alto", "balance": "Alto", "control": "Bajo a medio", "power": "Alto", "handling": "Baja", "arm": "Alta", "level": "Avanzado y ofensivo" }
+  },
+  "verdict": "Si empiezas o priorizas la regularidad, la **redonda** es la elección segura. La **lágrima** es la opción más versátil cuando ya dominas los golpes básicos. La **diamante** solo compensa si tienes técnica para golpear en su punto dulce y buscas rematar; si no, multiplica los errores y carga el brazo.",
+  "sources": []
+}

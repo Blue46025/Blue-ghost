@@ -12,9 +12,9 @@ const browser = await chromium.launch();
 const problems = [];
 const pages = [
   ['portada', '/'],
-  ['seccion', '/seccion/tecnologia/'],
-  ['articulo', '/tecnologia/redes/wifi-6-6e-7-diferencias/'],
-  ['comparativa', '/tecnologia/hardware/paneles-de-monitor/'],
+  ['seccion', '/seccion/deporte/'],
+  ['articulo', '/deporte/padel/elegir-pala-padel/'],
+  ['comparativa', '/deporte/padel/formas-pala-padel/'],
   ['busqueda', '/?s=garantia'],
   ['404', '/no-existe/'],
 ];
@@ -46,7 +46,7 @@ for (const [vpName, viewport] of [['movil', { width: 390, height: 844 }], ['escr
 const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
 const page = await ctx.newPage();
 
-await page.goto(BASE + '/tecnologia/redes/wifi-6-6e-7-diferencias/', { waitUntil: 'networkidle' });
+await page.goto(BASE + '/deporte/padel/elegir-pala-padel/', { waitUntil: 'networkidle' });
 const tocItems = await page.locator('[data-toc] li').count();
 if (tocItems < 3) problems.push(`índice del artículo con ${tocItems} entradas`);
 const robots = await page.locator('meta[name="robots"]').getAttribute('content');
@@ -56,14 +56,14 @@ if (!types.includes('Article') || !types.includes('BreadcrumbList')) problems.pu
 const sources = await page.locator('.sources li').count();
 console.log(`Artículo: índice ${tocItems} entradas · fuentes ${sources} · JSON-LD ${types.join(', ')} · robots "${robots}"`);
 
-await page.goto(BASE + '/tecnologia/hardware/paneles-de-monitor/', { waitUntil: 'networkidle' });
+await page.goto(BASE + '/deporte/padel/formas-pala-padel/', { waitUntil: 'networkidle' });
 const rowsBefore = await page.locator('.zona-cmp tbody tr:visible').count();
 await page.getByText('Solo diferencias').click();
 const rowsDiff = await page.locator('.zona-cmp tbody tr:visible').count();
-await page.locator('.cmp-controls__items label', { hasText: 'TN' }).click();
+await page.locator('.cmp-controls__items label', { hasText: 'Diamante' }).click();
 const cols = await page.locator('.zona-cmp thead th:visible').count();
-if (cols !== 4) problems.push(`comparativa: ${cols} columnas visibles tras ocultar una (esperado 4 con la de etiquetas)`);
-console.log(`Comparativa: ${rowsBefore} filas, ${rowsDiff} con "solo diferencias", ${cols - 1} opciones visibles tras ocultar TN`);
+if (cols !== 3) problems.push(`comparativa: ${cols} columnas visibles tras ocultar una (esperado 3 con la de etiquetas)`);
+console.log(`Comparativa: ${rowsBefore} filas, ${rowsDiff} con "solo diferencias", ${cols - 1} opciones visibles tras ocultar Diamante`);
 
 await page.click('[data-theme-toggle]');
 await page.click('[data-theme-toggle]');
@@ -72,10 +72,10 @@ const theme = await page.evaluate(() => document.documentElement.getAttribute('d
 if (theme !== 'dark') problems.push(`tema no persiste (${theme})`);
 console.log(`Tema tras recargar: ${theme}`);
 
-await page.goto(BASE + '/?s=wifi', { waitUntil: 'networkidle' });
+await page.goto(BASE + '/?s=pala', { waitUntil: 'networkidle' });
 const hits = await page.locator('.card').count();
-if (hits < 1) problems.push('búsqueda "wifi" sin resultados');
-console.log(`Búsqueda "wifi": ${hits} resultados`);
+if (hits < 1) problems.push('búsqueda "pala" sin resultados');
+console.log(`Búsqueda "pala": ${hits} resultados`);
 
 await browser.close();
 if (problems.length) { console.error('Problemas:\n  - ' + problems.join('\n  - ')); process.exit(1); }
