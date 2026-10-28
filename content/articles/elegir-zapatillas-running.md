@@ -2,7 +2,7 @@
 {
   "title": "Cómo elegir zapatillas de running: amortiguación, drop y uso real",
   "slug": "elegir-zapatillas-running",
-  "category": "deporte",
+  "category": "entrenamiento",
   "subcategory": "running",
   "type": "guia",
   "date": "2026-10-28",

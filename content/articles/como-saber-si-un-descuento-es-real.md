@@ -10,7 +10,7 @@
   "dek": "Un porcentaje grande en rojo no garantiza una buena compra. En España, cuando una tienda anuncia una rebaja, el precio anterior debe ser el más bajo que aplicó en los 30 días previos.",
   "description": "Cómo comprobar si una oferta es real: la regla del precio anterior de 30 días, el precio recomendado, el historial de precios y los costes ocultos.",
   "tags": ["ofertas", "descuentos", "rebajas", "black friday", "precio anterior", "consumidor", "historial de precios"],
-  "related": ["desistimiento-garantia-compras-online", "elegir-pala-padel"],
+  "related": ["desistimiento-garantia-compras-online", "material-gimnasio-en-casa"],
   "sources": [
     { "title": "Ley 7/1996, de 15 de enero, de Ordenación del Comercio Minorista (texto consolidado)", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-1072", "publisher": "BOE" },
     { "title": "Directiva (UE) 2019/2161 (modernización de las normas de protección de los consumidores)", "url": "https://eur-lex.europa.eu/eli/dir/2019/2161/oj", "publisher": "EUR-Lex" }

@@ -2,7 +2,7 @@
 {
   "title": "Reloj GPS para correr: qué funciones importan y cuáles sobran",
   "slug": "reloj-gps-running",
-  "category": "deporte",
+  "category": "entrenamiento",
   "subcategory": "running",
   "type": "guia",
   "date": "2026-10-28",
@@ -10,7 +10,7 @@
   "dek": "La mayoría de corredores usa una pequeña parte de las funciones de su reloj. Precisión del GPS, autonomía y comodidad pesan más que la lista interminable de métricas.",
   "description": "Cómo elegir reloj GPS para correr: precisión del GPS, pulsómetro de muñeca o banda de pecho, autonomía, pantalla, mapas, música y funciones que no necesitas.",
   "tags": ["running", "reloj gps", "pulsómetro", "correr", "smartwatch", "entrenamiento"],
-  "related": ["elegir-zapatillas-running"],
+  "related": ["elegir-zapatillas-running", "rutina-musculacion-principiantes"],
   "sources": []
 }
 ---

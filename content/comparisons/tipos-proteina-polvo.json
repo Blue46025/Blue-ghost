@@ -1,0 +1,37 @@
+{
+  "slug": "tipos-proteina-polvo",
+  "title": "Whey concentrado, aislado, caseína o vegetal: comparativa de tipos de proteína en polvo",
+  "dek": "Los cuatro tipos más comunes de proteína en polvo comparados: contenido de proteína, lactosa, digestión, textura, precio y para quién es cada uno.",
+  "description": "Comparativa de proteína en polvo: concentrado de suero, aislado, caseína y vegetal. Proteína por 100 g, lactosa, velocidad de digestión, precio y usos.",
+  "category": "nutricion",
+  "subcategory": "suplementos",
+  "date": "2026-10-28",
+  "status": "borrador",
+  "tags": ["proteína", "whey", "aislado", "caseína", "proteína vegetal"],
+  "related": ["proteina-en-polvo", "creatina-guia"],
+  "intro": "Valores orientativos: cada producto varía, así que consulta siempre la etiqueta. Para saber cuánta proteína necesitas y cómo calcular el precio por gramo, lee la [guía de proteína en polvo](art:proteina-en-polvo).",
+  "items": [
+    { "id": "wpc", "name": "Concentrado de suero", "summary": "Whey" },
+    { "id": "wpi", "name": "Aislado de suero", "summary": "Isolate" },
+    { "id": "caseina", "name": "Caseína", "summary": "Lenta" },
+    { "id": "vegetal", "name": "Vegetal", "summary": "Guisante, arroz, soja" }
+  ],
+  "attributes": [
+    { "key": "protein", "label": "Proteína por 100 g", "help": "Orientativo" },
+    { "key": "lactose", "label": "Lactosa" },
+    { "key": "digestion", "label": "Velocidad de digestión" },
+    { "key": "texture", "label": "Textura y sabor" },
+    { "key": "price", "label": "Precio relativo" },
+    { "key": "for", "label": "Para quién" }
+  ],
+  "values": {
+    "wpc": { "protein": "≈70–80 g", "lactose": "Algo", "digestion": "Rápida", "texture": "Cremosa; amplia variedad de sabores", "price": "El más económico", "for": "Uso general" },
+    "wpi": { "protein": "≈85–90 g o más", "lactose": "Muy baja", "digestion": "Rápida", "texture": "Más ligera", "price": "Más caro", "for": "Intolerancia leve a la lactosa o quien busca más proteína por ración" },
+    "caseina": { "protein": "Alta; varía según producto", "lactose": "Variable", "digestion": "Lenta", "texture": "Espesa", "price": "Medio a alto", "for": "Entre horas o antes de dormir" },
+    "vegetal": { "protein": "Variable según la fuente y la mezcla", "lactose": "Sin lactosa", "digestion": "Variable", "texture": "Más terrosa; mejora en mezclas", "price": "Medio", "for": "Dieta vegana o alergia a la proteína de la leche" }
+  },
+  "verdict": "Para la mayoría, un **concentrado de suero** es la opción con mejor relación calidad-precio. Si la lactosa te sienta mal, el **aislado** suele resolverlo. La **caseína** tiene sentido si buscas una proteína lenta, y la **vegetal** si no tomas lácteos. Compara siempre el precio por gramo de proteína, no el del bote.",
+  "sources": [
+    { "title": "Jäger R et al. ISSN Position Stand: protein and exercise (2017)", "url": "https://doi.org/10.1186/s12970-017-0177-8", "publisher": "Journal of the International Society of Sports Nutrition" }
+  ]
+}

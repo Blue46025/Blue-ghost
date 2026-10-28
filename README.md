@@ -1,6 +1,6 @@
 # Zona de Oferta
 
-Blog de deporte centrado en **pádel y running** (guías de compra, comparativas y algo de actualidad deportiva), financiado con afiliación y publicidad no invasiva. **Nombre provisional.** Sin venta, sin registros, sin suscripciones, sin formularios y sin cupones.
+Blog de **gimnasio, musculación, nutrición deportiva y running** (guías, comparativas y guías de compra con afiliación; algo de actualidad deportiva), financiado con afiliación y publicidad no invasiva. **Nombre provisional.** Sin venta, sin registros, sin suscripciones, sin formularios y sin cupones.
 
 Plataforma: **WordPress autoalojado en Hostinger**, con un tema y un plugin propios hechos desde cero.
 
@@ -11,8 +11,8 @@ entregables/zona.zip          Tema listo para subir a WordPress
 entregables/zona-core.zip     Plugin listo para subir a WordPress
 wordpress/zona/               Código del tema
 wordpress/zona-core/          Código del plugin (+ taxonomy.json: secciones y subsecciones)
-content/articles/*.md         Artículos que se publican (pádel, running, consumo), todos en BORRADOR
-content/archivo/              Artículos y comparativas de tecnología/hogar/motor apartados (no se publican)
+content/articles/*.md         Artículos que se publican (entrenamiento, nutrición, running, consumo), todos en BORRADOR
+content/archivo/              Artículos apartados: tecnología, hogar, motor y pádel (no se publican)
 content/comparisons/*.json    Comparativas (tabla interactiva en la web)
 content/pages/*.md            Metodología y páginas legales (borradores con datos [PENDIENTE])
 content/affiliates.json       Registro de programas de afiliación (ninguno verificado)

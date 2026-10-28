@@ -11,7 +11,7 @@
   "dek": "Comprar por internet a un vendedor profesional te da 14 días para devolver sin explicar el motivo y tres años de garantía legal en los productos nuevos. Te contamos cómo funcionan y sus excepciones.",
   "description": "Derecho de desistimiento de 14 días, excepciones, reembolso y gastos de devolución, y garantía legal de 3 años en compras online según la ley española.",
   "tags": ["devolución", "desistimiento", "garantía", "consumidor", "compras online", "reembolso", "derechos"],
-  "related": ["como-saber-si-un-descuento-es-real", "elegir-pala-padel"],
+  "related": ["como-saber-si-un-descuento-es-real", "proteina-en-polvo"],
   "sources": [
     { "title": "Real Decreto Legislativo 1/2007, texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios (texto consolidado)", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555", "publisher": "BOE" },
     { "title": "Tu Europa: devoluciones y reembolsos", "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_es.htm", "publisher": "Unión Europea" }

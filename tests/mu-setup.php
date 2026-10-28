@@ -16,7 +16,7 @@ add_action( 'init', function () {
 	}
 	update_option( 'zona_test_ready', 1 );
 	update_option( 'blogname', 'Zona de Oferta' );
-	update_option( 'blogdescription', 'Tecnología, actualidad y consumo explicados con criterio' );
+	update_option( 'blogdescription', 'Entrenamiento, nutrición y material deportivo explicados con criterio' );
 	update_option( 'timezone_string', 'Europe/Madrid' );
 	update_option( 'blog_public', '0' );
 

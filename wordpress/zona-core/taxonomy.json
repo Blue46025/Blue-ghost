@@ -2,25 +2,61 @@
   "note": "Fuente única de categorías. El plugin las crea en WordPress al activarse (no borra ni renombra las existentes). WordPress solo muestra en menús y portada las que tienen artículos publicados.",
   "categories": [
     {
-      "slug": "deporte",
-      "name": "Deporte",
+      "slug": "entrenamiento",
+      "name": "Entrenamiento",
       "color": "#9A4320",
-      "description": "Pádel y running explicados para comprar bien: guías de material, comparativas y actualidad.",
+      "description": "Musculación, entrenar en casa y running: cómo progresar sin lesionarte ni tirar el dinero.",
       "children": [
         {
-          "slug": "padel",
-          "name": "Pádel",
-          "description": "Palas, zapatillas, pelotas y accesorios: cómo elegir sin tirar el dinero."
+          "slug": "musculacion",
+          "name": "Musculación",
+          "description": "Rutinas, técnica y progresión para ganar fuerza y músculo."
+        },
+        {
+          "slug": "en-casa",
+          "name": "Entrenar en casa",
+          "description": "Material y rutinas para entrenar sin gimnasio."
         },
         {
           "slug": "running",
           "name": "Running",
-          "description": "Zapatillas, relojes y material para correr."
+          "description": "Zapatillas, relojes y entrenamiento para correr."
+        }
+      ]
+    },
+    {
+      "slug": "nutricion",
+      "name": "Nutrición",
+      "color": "#4F7155",
+      "description": "Suplementos y alimentación deportiva con lo que dice la evidencia, sin promesas milagro.",
+      "children": [
+        {
+          "slug": "suplementos",
+          "name": "Suplementos",
+          "description": "Proteína, creatina y otros suplementos: qué funciona y qué no."
         },
         {
-          "slug": "actualidad-deportiva",
-          "name": "Actualidad deportiva",
-          "description": "Noticias deportivas contrastadas."
+          "slug": "alimentacion",
+          "name": "Alimentación",
+          "description": "Comer para rendir y recuperarse."
+        }
+      ]
+    },
+    {
+      "slug": "material",
+      "name": "Material",
+      "color": "#3B5B7A",
+      "description": "Ropa, calzado y tecnología deportiva.",
+      "children": [
+        {
+          "slug": "ropa-calzado",
+          "name": "Ropa y calzado",
+          "description": "Qué ponerse para entrenar."
+        },
+        {
+          "slug": "tecnologia-deportiva",
+          "name": "Tecnología deportiva",
+          "description": "Relojes, básculas y aplicaciones."
         }
       ]
     },
@@ -49,6 +85,11 @@
           "slug": "ciencia",
           "name": "Ciencia y espacio",
           "description": "Descubrimientos y avances científicos."
+        },
+        {
+          "slug": "deportes",
+          "name": "Deportes",
+          "description": "Actualidad deportiva contrastada."
         }
       ]
     },
