@@ -1,0 +1,13 @@
+{
+  "note": "Registro de programas de afiliación. Un programa solo puede usarse en enlaces 'aff:' si status = 'verificado' y tiene trackingId real comprobado en su panel. NO inventar identificadores. El build falla si un enlace usa un programa no verificado.",
+  "programs": [
+    { "id": "amazon-es", "name": "Amazon Afiliados (amazon.es)", "status": "no-verificado", "trackingId": null, "checkedAt": null },
+    { "id": "awin", "name": "Awin", "status": "no-verificado", "trackingId": null, "checkedAt": null },
+    { "id": "cj", "name": "CJ Affiliate", "status": "no-verificado", "trackingId": null, "checkedAt": null },
+    { "id": "impact", "name": "Impact", "status": "no-verificado", "trackingId": null, "checkedAt": null },
+    { "id": "tradetracker", "name": "TradeTracker", "status": "no-verificado", "trackingId": null, "checkedAt": null },
+    { "id": "tradedoubler", "name": "Tradedoubler", "status": "no-verificado", "trackingId": null, "checkedAt": null },
+    { "id": "webgains", "name": "Webgains", "status": "no-verificado", "trackingId": null, "checkedAt": null }
+  ],
+  "merchantsNote": "PcComponentes, Decathlon, Leroy Merlin, El Corte Inglés y otros comercios suelen gestionar su afiliación a través de redes (Awin, etc.). La red concreta y la aprobación deben comprobarse en cada panel; no se presupone ninguna."
+}

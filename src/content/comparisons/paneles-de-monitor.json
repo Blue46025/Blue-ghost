@@ -1,0 +1,40 @@
+{
+  "slug": "paneles-de-monitor",
+  "title": "IPS, VA, OLED y TN: comparativa de tipos de panel de monitor",
+  "dek": "Cada tecnología de panel tiene puntos fuertes distintos. Esta tabla resume diferencias generales; los modelos concretos pueden desviarse de ellas.",
+  "description": "Comparativa de paneles de monitor IPS, VA, OLED y TN: contraste, ángulos de visión, velocidad, brillo, riesgo de marcado y usos recomendados.",
+  "category": "tecnologia",
+  "subcategory": "hardware",
+  "date": "2026-10-28",
+  "status": "borrador",
+  "tags": ["monitor", "ips", "va", "oled", "tn", "panel"],
+  "related": ["como-elegir-monitor"],
+  "intro": "Las diferencias entre paneles son tendencias generales de cada tecnología. La calidad de un modelo concreto depende de su implementación, por lo que conviene consultar mediciones independientes. Para el resto de factores (densidad, frecuencia y conexiones) consulta la [guía para elegir monitor](art:como-elegir-monitor).",
+  "items": [
+    { "id": "ips", "name": "IPS", "summary": "LCD de cristal líquido en plano" },
+    { "id": "va", "name": "VA", "summary": "LCD de alineación vertical" },
+    { "id": "oled", "name": "OLED", "summary": "Píxeles con luz propia" },
+    { "id": "tn", "name": "TN", "summary": "LCD nemático torsionado" }
+  ],
+  "attributes": [
+    { "key": "contrast", "label": "Contraste nativo", "help": "Sin atenuación local" },
+    { "key": "black", "label": "Negros en sala oscura" },
+    { "key": "angles", "label": "Ángulos de visión" },
+    { "key": "color", "label": "Consistencia del color" },
+    { "key": "speed", "label": "Velocidad de respuesta" },
+    { "key": "brightness", "label": "Brillo en imágenes muy claras" },
+    { "key": "burnin", "label": "Riesgo de marcado permanente" },
+    { "key": "backlight", "label": "Admite atenuación local Mini-LED" },
+    { "key": "best", "label": "Uso más indicado" }
+  ],
+  "values": {
+    "ips": { "contrast": "Moderado (≈1.000:1 habitual)", "black": "Grisáceos; posible brillo en esquinas", "angles": "Muy buenos", "color": "Muy buena", "speed": "Buena a muy buena", "brightness": "Bueno", "burnin": "No", "backlight": "Sí", "best": "Uso general, edición de imagen, ofimática" },
+    "va": { "contrast": "Alto (≈3.000:1 o más habitual)", "black": "Profundos", "angles": "Buenos", "color": "Buena; varía algo con el ángulo", "speed": "Variable; posibles estelas en tonos oscuros", "brightness": "Bueno", "burnin": "No", "backlight": "Sí", "best": "Cine, juegos en salas oscuras" },
+    "oled": { "contrast": "Prácticamente infinito", "black": "Perfectos", "angles": "Excelentes", "color": "Muy buena", "speed": "Excelente, casi instantánea", "brightness": "Limitado con zonas claras amplias", "burnin": "Posible con elementos estáticos prolongados", "backlight": "No aplica (no tiene retroiluminación)", "best": "Juegos, cine, HDR" },
+    "tn": { "contrast": "Bajo", "black": "Grisáceos", "angles": "Pobres, sobre todo en vertical", "color": "Limitada", "speed": "Muy buena", "brightness": "Bueno", "burnin": "No", "backlight": "Poco habitual", "best": "Monitores económicos; en desuso" }
+  },
+  "verdict": "Para la mayoría de usos de escritorio, un **IPS** es la opción más equilibrada. Si trabajas o juegas en una habitación oscura y valoras el contraste, un **VA** o un LCD con **Mini-LED** de muchas zonas son alternativas sólidas. **OLED** ofrece la mejor imagen y respuesta, a cambio de un precio más alto y de cuidados frente a elementos estáticos. **TN** solo tiene sentido si el presupuesto es lo único que importa.",
+  "sources": [
+    { "title": "VESA DisplayHDR: especificaciones de certificación", "url": "https://displayhdr.org/", "publisher": "VESA" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "note": "Una categoría o subcategoría solo aparece en la navegación, el sitemap y las páginas generadas si tiene al menos un artículo. Las 'planned' documentan la arquitectura prevista sin crear secciones vacías.",
+  "categories": [
+    { "slug": "tecnologia", "name": "Tecnología", "color": "#3B5B7A", "description": "Hardware, redes, móviles y software explicados con datos técnicos y sin humo.",
+      "children": [
+        { "slug": "hardware", "name": "Hardware", "description": "Componentes, monitores, almacenamiento y periféricos." },
+        { "slug": "redes", "name": "Redes y conectividad", "description": "Wi-Fi, routers, fibra y redes domésticas." },
+        { "slug": "moviles", "name": "Móviles y carga", "description": "Smartphones, cargadores, baterías y accesorios." },
+        { "slug": "software", "name": "Software y seguridad", "description": "Aplicaciones, privacidad y seguridad digital." }
+      ] },
+    { "slug": "inteligencia-artificial", "name": "Inteligencia artificial", "color": "#5B4A86", "description": "Qué hace realmente la IA, cómo usarla con cabeza y qué dice la regulación europea.", "children": [] },
+    { "slug": "hogar", "name": "Hogar", "color": "#4F7155", "description": "Electrodomésticos, eficiencia energética y limpieza.",
+      "children": [
+        { "slug": "energia", "name": "Energía y eficiencia", "description": "Consumo, etiquetas energéticas y ahorro." },
+        { "slug": "limpieza", "name": "Limpieza", "description": "Robots aspiradores, aspiradoras y cuidado del hogar." }
+      ] },
+    { "slug": "herramientas", "name": "Herramientas y bricolaje", "color": "#8A5A2B", "description": "Herramientas eléctricas, baterías y equipamiento para bricolaje.", "children": [] },
+    { "slug": "motor", "name": "Motor", "color": "#2F6B6B", "description": "Normativa, movilidad eléctrica y consejos prácticos para conductores.", "children": [] },
+    { "slug": "deporte", "name": "Deporte", "color": "#9A4320", "description": "Material deportivo explicado: cómo elegir sin dejarse llevar por el marketing.", "children": [] },
+    { "slug": "consumo", "name": "Consumo y derechos", "color": "#6B5B2E", "description": "Derechos del consumidor, compras online y cómo detectar ofertas reales.",
+      "children": [
+        { "slug": "compras-online", "name": "Compras online", "description": "Devoluciones, garantías y compra segura." },
+        { "slug": "ofertas", "name": "Ofertas verificadas", "description": "Cómo leer descuentos y comprobar precios." }
+      ] },
+    { "slug": "viajes", "name": "Viajes", "color": "#36627F", "description": "Derechos del viajero y consejos prácticos.", "children": [] }
+  ],
+  "planned": [
+    { "slug": "actualidad", "name": "Actualidad y tendencias", "requirement": "Noticias con fuentes primarias verificadas y revisión editorial humana." },
+    { "slug": "ciencia", "name": "Ciencia" },
+    { "slug": "moda", "name": "Moda" },
+    { "slug": "bienestar", "name": "Bienestar", "requirement": "Revisión por profesional cualificado en contenidos de salud." },
+    { "slug": "cultura-digital", "name": "Cultura digital" },
+    { "slug": "especiales", "name": "Especiales de temporada" }
+  ]
+}

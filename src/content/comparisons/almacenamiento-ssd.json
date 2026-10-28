@@ -1,0 +1,38 @@
+{
+  "slug": "almacenamiento-ssd",
+  "title": "SSD SATA frente a NVMe PCIe 3.0, 4.0 y 5.0: comparativa",
+  "dek": "Interfaz, velocidades secuenciales orientativas, formato, temperatura y uso recomendado de cada tipo de SSD.",
+  "description": "Comparativa de SSD SATA y NVMe PCIe 3.0, 4.0 y 5.0: velocidad secuencial orientativa, formatos, compatibilidad, temperatura y para quién es cada uno.",
+  "category": "tecnologia",
+  "subcategory": "hardware",
+  "date": "2026-10-28",
+  "status": "borrador",
+  "tags": ["ssd", "nvme", "sata", "pcie"],
+  "related": ["ssd-nvme-vs-sata"],
+  "intro": "Las velocidades son máximos secuenciales habituales en cada clase; los modelos concretos varían. Por qué en el día a día la diferencia es menor de lo que parece lo explicamos en [SSD NVMe frente a SATA](art:ssd-nvme-vs-sata).",
+  "items": [
+    { "id": "sata", "name": "SATA III", "summary": "2,5\" o M.2 SATA" },
+    { "id": "gen3", "name": "NVMe PCIe 3.0", "summary": "M.2 x4" },
+    { "id": "gen4", "name": "NVMe PCIe 4.0", "summary": "M.2 x4" },
+    { "id": "gen5", "name": "NVMe PCIe 5.0", "summary": "M.2 x4" }
+  ],
+  "attributes": [
+    { "key": "read", "label": "Lectura secuencial máxima habitual" },
+    { "key": "form", "label": "Formatos" },
+    { "key": "compat", "label": "Compatibilidad" },
+    { "key": "heat", "label": "Temperatura y disipación" },
+    { "key": "daily", "label": "Mejora percibida en uso diario", "help": "Frente a un disco mecánico" },
+    { "key": "for", "label": "Para quién" }
+  ],
+  "values": {
+    "sata": { "read": "≈550 MB/s", "form": "2,5\" y M.2", "compat": "Prácticamente universal", "heat": "Baja; no necesita disipador", "daily": "Muy grande", "for": "Equipos antiguos sin M.2 NVMe" },
+    "gen3": { "read": "≈3.500 MB/s", "form": "M.2 2280 (habitual)", "compat": "Ranuras M.2 NVMe", "heat": "Moderada", "daily": "Muy grande", "for": "Equipos con PCIe 3.0 o presupuestos ajustados" },
+    "gen4": { "read": "≈7.000 MB/s", "form": "M.2 2280 (habitual)", "compat": "Funciona en PCIe 3.0 a menor velocidad", "heat": "Moderada a alta; disipador recomendable en sobremesa", "daily": "Muy grande", "for": "Opción equilibrada para la mayoría" },
+    "gen5": { "read": "Hasta ≈14.000 MB/s", "form": "M.2 2280 (habitual)", "compat": "Requiere placa y procesador con PCIe 5.0 para su máximo", "heat": "Alta; suele requerir disipador", "daily": "Muy grande", "for": "Archivos muy grandes y flujos profesionales" }
+  },
+  "verdict": "Cualquier SSD supone un salto enorme frente a un disco mecánico. Entre SSD, la diferencia que percibirás en el arranque y la apertura de programas es pequeña; la velocidad secuencial importa sobre todo al mover archivos muy grandes. Prioriza capacidad suficiente y un modelo fiable antes que la generación más reciente.",
+  "sources": [
+    { "title": "NVM Express: especificaciones", "url": "https://nvmexpress.org/specifications/", "publisher": "NVM Express" },
+    { "title": "PCI-SIG: especificaciones PCI Express", "url": "https://pcisig.com/specifications", "publisher": "PCI-SIG" }
+  ]
+}

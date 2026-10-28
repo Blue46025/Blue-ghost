@@ -1,0 +1,39 @@
+{
+  "slug": "generaciones-wifi",
+  "title": "Wi-Fi 5, Wi-Fi 6, Wi-Fi 6E y Wi-Fi 7: comparativa técnica",
+  "dek": "Bandas, anchura de canal, modulación y funciones de cada generación, con las particularidades del espectro disponible en Europa.",
+  "description": "Comparativa de Wi-Fi 5, Wi-Fi 6, Wi-Fi 6E y Wi-Fi 7: estándar IEEE, bandas, canal máximo, modulación, OFDMA, MLO y velocidad teórica.",
+  "category": "tecnologia",
+  "subcategory": "redes",
+  "date": "2026-10-28",
+  "status": "borrador",
+  "tags": ["wifi", "router", "wi-fi 7", "6 ghz"],
+  "related": ["wifi-6-6e-7-diferencias"],
+  "intro": "Las velocidades máximas son teóricas y se suman entre todos los flujos y bandas; ningún dispositivo doméstico las alcanza. Para decidir si te conviene actualizar, lee la [explicación de las diferencias](art:wifi-6-6e-7-diferencias).",
+  "items": [
+    { "id": "wifi5", "name": "Wi-Fi 5", "summary": "IEEE 802.11ac" },
+    { "id": "wifi6", "name": "Wi-Fi 6", "summary": "IEEE 802.11ax" },
+    { "id": "wifi6e", "name": "Wi-Fi 6E", "summary": "IEEE 802.11ax en 6 GHz" },
+    { "id": "wifi7", "name": "Wi-Fi 7", "summary": "IEEE 802.11be" }
+  ],
+  "attributes": [
+    { "key": "bands", "label": "Bandas" },
+    { "key": "channel", "label": "Canal máximo" },
+    { "key": "qam", "label": "Modulación máxima" },
+    { "key": "ofdma", "label": "OFDMA (reparto entre dispositivos)" },
+    { "key": "mlo", "label": "Conexión multienlace (MLO)" },
+    { "key": "security", "label": "WPA3", "help": "Requisito de certificación" },
+    { "key": "max", "label": "Velocidad teórica máxima", "help": "Orientativa, agregada" }
+  ],
+  "values": {
+    "wifi5": { "bands": "5 GHz", "channel": "160 MHz", "qam": "256-QAM", "ofdma": "No", "mlo": "No", "security": "No obligatorio", "max": "≈3,5 Gb/s (configuraciones típicas)" },
+    "wifi6": { "bands": "2,4 y 5 GHz", "channel": "160 MHz", "qam": "1024-QAM", "ofdma": "Sí", "mlo": "No", "security": "Obligatorio", "max": "≈9,6 Gb/s" },
+    "wifi6e": { "bands": "2,4, 5 y 6 GHz", "channel": "160 MHz", "qam": "1024-QAM", "ofdma": "Sí", "mlo": "No", "security": "Obligatorio", "max": "≈9,6 Gb/s" },
+    "wifi7": { "bands": "2,4, 5 y 6 GHz", "channel": "320 MHz (solo 6 GHz)", "qam": "4096-QAM", "ofdma": "Sí, mejorado", "mlo": "Sí", "security": "Obligatorio", "max": "≈46 Gb/s" }
+  },
+  "verdict": "En Europa, la banda de 6 GHz habilitada para Wi-Fi se limita a 5.945–6.425 MHz, lo que reduce el número de canales anchos disponibles para Wi-Fi 6E y Wi-Fi 7 respecto a otros mercados. Para la mayoría de hogares, **Wi-Fi 6 o 6E** cubre las necesidades; **Wi-Fi 7** aporta sobre todo menor latencia y robustez gracias a MLO cuando los dispositivos también lo admiten.",
+  "sources": [
+    { "title": "Wi-Fi Alliance: generaciones Wi-Fi", "url": "https://www.wi-fi.org/discover-wi-fi", "publisher": "Wi-Fi Alliance" },
+    { "title": "Decisión de Ejecución (UE) 2021/1067 de la Comisión (banda de 5 945-6 425 MHz)", "url": "https://eur-lex.europa.eu/eli/dec_impl/2021/1067/oj", "publisher": "EUR-Lex" }
+  ]
+}
